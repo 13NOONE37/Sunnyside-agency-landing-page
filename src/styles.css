@@ -505,6 +505,7 @@ footer ul li a svg:focus {
   }
 
   .opinions {
+    padding: 162px calc(var(--padding-x) * 2);
     grid-area: opinions;
   }
   .opinions ul {
