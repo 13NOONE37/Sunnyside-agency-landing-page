@@ -434,13 +434,14 @@ footer ul li a svg:focus {
     color: var(--neutral-white);
   }
   .navigation a[data-primary] {
-    color: var(--neutral-white);
-    background-color: transparent;
+    color: var(--neutral-desaturated-blue);
+    background-color: var(--neutral-white);
     transition: all 0.1s ease;
   }
   .navigation a[data-primary]:hover,
   .navigation a[data-primary]:focus {
-    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--neutral-white);
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   .nav .advantage .content {
